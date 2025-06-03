@@ -10,7 +10,7 @@ export default function Home() {
 
       <section className="w-full h-screen max-h-[40rem] max-w-[85rem] z-10 flex">
 
-      <div className="flex w-120 md:w-[80vh] lg:w-full h-full max-h-[40rem] border-white items-center justify-center ml-10 gap-5 z-10">
+      <div className="flex w-1/2 md:w-[80vh] lg:w-full h-full max-h-[40rem] border-white items-center justify-center ml-10 gap-5 z-10">
         { /* foto do bot e texto */ }
           <img className="border-2 rounded-full max-w-35 max-h-35 md:max-w-45 md:max-h-45 lg:max-w-70 lg:max-h-70 bg-black border-red-500" src="avatar.png" alt="avatar" />
           <h1 className="w-[30rem] h-[10rem] lg:text-2xl md:text-base text-sm flex font-semibold text-white">👋Olá! Eu sou o Ordo Realitas! Eu sou um bot de rpg de ordem paranormal!
