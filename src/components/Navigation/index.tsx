@@ -4,13 +4,13 @@ export default function Navigation() {
             <div className="flex items-center gap-x-1">
                  <img src="medo.png" alt="medoicon"
                 className="max-w-12 max-h-12"/>
-                <h1 className="text-2xl font-bold">Ordo Realitas</h1>
+                <h1 className="text-base font-bold sm:text-2xl">Ordo Realitas</h1>
             </div>
             
             <div className="flex gap-x-10 items-center">
-                <a href="#" className="navItem">FAQ</a>
-                <a href="#" className="navItem">Servidor de Suporte</a>
-                <a href="#" className="navItem">Comandos</a>
+                <a href="#" className="navItem textoResponsivo">FAQ</a>
+                <a href="#" className="navItem textoResponsivo">Servidor de Suporte</a>
+                <a href="#" className="navItem textoResponsivo">Comandos</a>
             </div>
         </nav>
     )

@@ -136,3 +136,7 @@ drop-shadow(0 0 3rem #000000);
         drop-shadow(0 0 1rem #000000);
     }
 }
+
+.textoResponsivo {
+    @apply text-xs md:text-base
+}
