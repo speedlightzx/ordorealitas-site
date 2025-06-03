@@ -1,6 +1,6 @@
 export default function Navigation() {
    return (
-        <nav className="flex justify-between p-2 pl-3 pr-15 border-b-2 border-b-white bg-black font-semibold text-white">
+        <nav className="relative z-10 inset-0 flex w-full justify-between p-2 pl-3 pr-15 border-b-2 border-b-white bg-black font-semibold text-white">
             <div className="flex items-center gap-x-1">
                  <img src="medo.png" alt="medoicon"
                 className="max-w-12 max-h-12"/>

@@ -10,5 +10,5 @@
 
 .navItem:hover {
     transform: scale(1.1);
-    @apply underline text-red-400
+    @apply underline text-amber-300
 }
