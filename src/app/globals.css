@@ -140,3 +140,7 @@ drop-shadow(0 0 3rem #000000);
 .textoResponsivo {
     @apply text-xs md:text-base
 }
+
+.botoesInicioResponsivo {
+    @apply md:max-h-[20vh] md:max-w-[20vh] lg:max-w-[30vh] max-w-[15vh]
+}
