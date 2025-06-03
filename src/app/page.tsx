@@ -17,7 +17,7 @@ export default function Home() {
           </h1>
 
         { /* botoes de adicionar e ver ultima atualizacao */ }
-          <div className="gap-5 flex">
+          <div className="gap-5 flex flex-col lg:flex-row">
             <button className="border-2 rounded-md p-2.5 textoResponsivo md:max-h-[20vh] md:max-w-[20vh] lg:max-w-[30vh] max-w-[15vh] text-white bg-purple-500 border-black font-semibold cursor-pointer transition duration-200 hover:bg-purple-700 hover:underline max-h-[8vh]">Adicionar ao servidor</button>
             <button className="border-2 rounded-md p-2.5 textoResponsivo md:max-h-[20vh] md:max-w-[20vh] lg:max-w-[30vh] max-w-[15vh] text-white bg-red-500 border-black font-semibold cursor-pointer transition duration-200 hover:bg-red-700 hover:underline max-h-[8vh]">Última Atualização</button>
           </div>
