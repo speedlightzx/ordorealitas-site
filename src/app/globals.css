@@ -5,7 +5,7 @@
 }
 
 .navItem {
-    @apply transition duration-200 text-[18px]
+    @apply transition duration-200
 }
 
 .navItem:hover {
@@ -143,4 +143,8 @@ drop-shadow(0 0 3rem #000000);
 
 .botoesInicioResponsivo {
     @apply md:max-h-[20vh] md:max-w-[20vh] lg:max-w-[30vh] max-w-[15vh]
+}
+
+.elementoResponsivo {
+    @apply lg:max-w-65 lg:max-h-65 max-w-30 max-h-30
 }
