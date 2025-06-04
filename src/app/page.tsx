@@ -1,5 +1,7 @@
 'use client'
 
+import GradientText from "@/blocks/TextAnimations/GradientText/GradientText";
+
 export default function Home() {
   return (
     <div className="flex h-full w-full flex-col gap-y-20 overflow-x-hidden">
@@ -20,7 +22,9 @@ export default function Home() {
 
         { /* botoes de adicionar e ver ultima atualizacao */ }
           <div className="gap-5 flex flex-col lg:flex-row">
-            <button className="border-2 rounded-md p-2.5 textoResponsivo botaoInicioResponsivo text-white bg-purple-500 border-black font-semibold cursor-pointer transition duration-200 hover:bg-purple-700 hover:underline max-h-[8vh]">
+            <button
+            onClick={() => window.open('https://discord.com/api/oauth2/authorize?client_id=1042204545012473926&permissions=277025516545&scope=bot%20applications.commands')}
+            className="border-2 rounded-md p-2.5 textoResponsivo botaoInicioResponsivo text-white bg-purple-500 border-black font-semibold cursor-pointer transition duration-200 hover:bg-purple-700 hover:underline max-h-[8vh]">
             Adicionar ao servidor
             </button>
 
@@ -76,7 +80,16 @@ O Ordo Realitas também tem o próprio RPG, ele utiliza como base o sistema de O
         <img src="maior.png" alt="simbolo maior" 
         className="max-w-120 max-h-120 sm:max-w-160 sm:max-h-160 simboloMaior"/>
         <div className="absolute top-1/2">
-          <button className="botaoSimboloMaior border-2 rounded-md p-2.5 max-h-[10vh] text-white bg-purple-500 border-black font-semibold cursor-pointer transition duration-200 hover:bg-purple-700 hover:underline">Adicionar ao servidor</button>
+          <button 
+          onClick={() => window.open('https://discord.com/api/oauth2/authorize?client_id=1042204545012473926&permissions=277025516545&scope=bot%20applications.commands')}
+          className="botaoSimboloMaior border-2 rounded-md p-2.5 max-h-[10vh] text-white bg-purple-500 border-white cursor-pointer transition duration-200 hover:bg-purple-700 hover:underline">
+<GradientText
+  colors={["#61dafbaa", "#FFD700", "#7F00FF", "#ff0000", "#000000"]}
+  animationSpeed={3}
+  showBorder={false}>
+  Adicionar ao Servidor
+</GradientText>
+          </button>
         </div>
       </div>
 
