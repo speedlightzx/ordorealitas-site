@@ -13,8 +13,8 @@ export default function Navigation() {
             
             <div className="flex gap-x-10 items-center">
                 <a href="#" className="navItem textoResponsivo">FAQ</a>
-                <a href="#" className="navItem textoResponsivo">Servidor de Suporte</a>
-                <a href="comandos" className="navItem textoResponsivo">Comandos</a>
+                <a onClick={() => window.open('https://discord.gg/nx4P9PaNCm')} href="#" className="navItem textoResponsivo">Servidor de Suporte</a>
+                <a href="#">Comandos</a>
             </div>
         </nav>
     )
