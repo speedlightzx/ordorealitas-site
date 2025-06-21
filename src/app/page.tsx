@@ -78,7 +78,7 @@ O Ordo Realitas também tem o próprio RPG, ele utiliza como base o sistema de O
     { /* simbolo maior */ }
       <div className="flex justify-center items-center w-full relative">
         <img src="maior.png" alt="simbolo maior" 
-        className="max-w-120 max-h-120 sm:max-w-160 sm:max-h-160 simboloMaior"/>
+        className="max-w-110 max-h-110 sm:max-w-160 sm:max-h-160 simboloMaior"/>
         <div className="absolute top-1/2">
           <button 
           onClick={() => window.open('https://discord.com/api/oauth2/authorize?client_id=1042204545012473926&permissions=277025516545&scope=bot%20applications.commands')}

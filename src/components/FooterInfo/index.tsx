@@ -2,7 +2,7 @@
 
 export default function Footerinfo() {
     return (
-        <div className="bg-neutral-900 h-screen w-full lg:max-w-full lg:max-h-[15rem] overflow-x-hidden relative border-t-[#FFD700] border-2">
+        <div className="bg-neutral-900 h-full w-full lg:max-w-full lg:max-h-[15rem] overflow-x-hidden relative border-t-[#FFD700] border-2">
             <footer className="lg:flex lg:justify-center w-full">
                 <div className="lg:max-w-[20rem] w-full text-center my-auto items-center justify-center mt-10">
                      <h1 className="font-bold lg:text-2xl text-[20px] text-white">Ordo Realitas</h1>
@@ -16,7 +16,7 @@ export default function Footerinfo() {
                              <a onClick={() => window.open('https://discord.gg/nx4P9PaNCm')} href="#" className="navItem textoResponsivo text-white">Servidor de Suporte</a>
                          </li>
                          <li>
-                         <a href="#" className="navItem textoResponsivo text-white">Comandos</a>
+                         <a href="comandos" className="navItem textoResponsivo text-white">Comandos</a>
                          </li>
                      </ul>
                  </div>

@@ -152,3 +152,7 @@ drop-shadow(0 0 3rem #000000);
 .botaoSimboloMaior:hover {
     transform: scale(1.1);
 }
+
+.opcaoComando {
+    @apply h-15 justify-center flex items-center hover:bg-[#ff0000] transition duration-250 rounded-md
+}

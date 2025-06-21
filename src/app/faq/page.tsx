@@ -1,5 +1,3 @@
-'use client'
-
 import QuestionResponse from "@/components/QuestionResponse"
 
 export default function faq() {
