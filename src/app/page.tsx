@@ -28,7 +28,9 @@ export default function Home() {
             Adicionar ao servidor
             </button>
 
-            <button className="border-2 rounded-md p-2.5 textoResponsivo botaoInicioResponsivo text-white bg-red-500 border-black font-semibold cursor-pointer transition duration-200 hover:bg-red-700 hover:underline max-h-[8vh]">
+            <button
+            onClick={() => window.location.href = '/patch-notes'}
+            className="border-2 rounded-md p-2.5 textoResponsivo botaoInicioResponsivo text-white bg-red-500 border-black font-semibold cursor-pointer transition duration-200 hover:bg-red-700 hover:underline max-h-[8vh]">
             Última Atualização
             </button>
           </div>
