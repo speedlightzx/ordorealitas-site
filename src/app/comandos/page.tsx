@@ -1,7 +1,7 @@
 'use client'
 
-import OrdemParanormalComandos from "@/components/OrdemParanormalComandos"
-import OrdoRealitasComandos from "@/components/OrdoRealitasComandos"
+import OrdemParanormalComandos from "@/_components/OrdemParanormalComandos"
+import OrdoRealitasComandos from "@/_components/OrdoRealitasComandos"
 import { useState } from "react"
 
 export default function comandos() {

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navigation from "@/components/Navigation";
-import Footerinfo from "@/components/FooterInfo";
+import Navigation from "@/_components/Navigation";
+import Footerinfo from "@/_components/FooterInfo";
 
 export const metadata: Metadata = {
   title: "Ordo Realitas",

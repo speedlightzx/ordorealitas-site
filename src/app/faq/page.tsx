@@ -1,4 +1,4 @@
-import QuestionResponse from "@/components/QuestionResponse"
+import QuestionResponse from "@/_components/QuestionResponse"
 
 export default function faq() {
     return (

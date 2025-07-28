@@ -1,4 +1,4 @@
-'use client'
+import Link from "next/link"
 
 export default function Footerinfo() {
     return (
@@ -13,10 +13,10 @@ export default function Footerinfo() {
                      <h1 className="font-bold text-white lg:text-2xl text-[20px]">Links</h1>
                      <ul>
                          <li>
-                             <a onClick={() => window.open('https://discord.gg/nx4P9PaNCm')} href="#" className="navItem textoResponsivo text-white">Servidor de Suporte</a>
+                             <Link href="https://discord.gg/nx4P9PaNCm" target="_blank" className="navItem textoResponsivo text-white">Servidor de Suporte</Link>
                          </li>
                          <li>
-                         <a href="comandos" className="navItem textoResponsivo text-white">Comandos</a>
+                         <Link href="comandos" prefetch className="navItem textoResponsivo text-white">Comandos</Link>
                          </li>
                      </ul>
                  </div>
@@ -25,12 +25,12 @@ export default function Footerinfo() {
                      <h1 className="font-bold lg:text-2xl text-[20px] text-white">Termos</h1>
                      <ul>
                          <li>
-                             <a onClick={() => window.open('https://www.notion.so/Pol-tica-de-Privacidade-Ordo-Realitas-13539c003fe280dfb698d6a43dc4ae26')} href="#" className="navItem textoResponsivo text-white">
-                             Política de Privacidade</a>
+                             <Link href="https://www.notion.so/Pol-tica-de-Privacidade-Ordo-Realitas-13539c003fe280dfb698d6a43dc4ae26" target="_blank" className="navItem textoResponsivo text-white">
+                             Política de Privacidade</Link>
                          </li>
                          <li>
-                             <a onClick={() => window.open('https://liberating-dart-6ed.notion.site/Termos-de-Servi-o-Ordo-Realitas-13539c003fe28005a038d9bafdc4112a')} href="#" className="navItem textoResponsivo text-white">
-                             Termos de Serviço</a>
+                             <Link href="https://liberating-dart-6ed.notion.site/Termos-de-Servi-o-Ordo-Realitas-13539c003fe28005a038d9bafdc4112a" target="_blank" className="navItem textoResponsivo text-white">
+                             Termos de Serviço</Link>
                          </li>
                      </ul>
                  </div>

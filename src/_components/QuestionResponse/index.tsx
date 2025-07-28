@@ -1,5 +1,3 @@
-'use client'
-
 interface iQuestionRes {
     question: string,
     response: string
