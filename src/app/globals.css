@@ -107,8 +107,6 @@ drop-shadow(0 0 3rem #000000);
     animation: animacaoSimboloMaior 15s infinite ease-in-out;
 }
 
-
-
 @keyframes animacaoSimboloMaior {
     20% {
         filter: 
@@ -142,7 +140,7 @@ drop-shadow(0 0 3rem #000000);
 }
 
 .botoesInicioResponsivo {
-    @apply md:max-h-[20vh] md:max-w-[20vh] lg:max-w-[30vh] max-w-[15vh]
+    @apply md:max-h-[20vh] md:max-w-[20vh] lg:max-w-[30vh] max-w-[20vh] lg:text-base text-sm text-center
 }
 
 .elementoResponsivo {
