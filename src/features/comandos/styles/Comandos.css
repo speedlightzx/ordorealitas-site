@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.opcaoComando {
+    @apply h-15 justify-center flex items-center hover:bg-[#ff0000] transition duration-250 rounded-md
+}

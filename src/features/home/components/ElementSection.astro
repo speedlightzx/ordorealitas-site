@@ -1,0 +1,11 @@
+---
+interface Props {
+    isMorteElement?: boolean
+}
+
+const { isMorteElement } = Astro.props
+---
+
+<section class={`w-full items-center flex mt-10 p-3 ${isMorteElement ? "justify-end" : ""}`}>
+    <slot />
+</section>
