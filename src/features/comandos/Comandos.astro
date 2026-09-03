@@ -1,0 +1,49 @@
+---
+import OrdemParanormalComandos from "./components/OrdemParanormalCommands.astro"
+import OrdoRealitasComandos from "./components/OrdoRealitasCommands.astro"
+import './styles/Comandos.css'
+---
+<div class="w-full h-screen bg-neutral-800 flex flex-col lg:flex-row items-center">
+
+    <nav class="text-white gap-y-1 justify-center items-center lg:justify-normal list-none text-center lg:border-r-2 border-b-2 border-b-[#000000] border-r-[#000000] w-full lg:max-w-[25vh] h-full max-h-[25vh] lg:max-h-full flex flex-col">
+        <li
+        class={`opcaoComando w-[25vh] mt-15 bg-[#ff0000]`}
+        id="ordoRealitas">
+        🎲 Ordo Realitas
+        </li>
+
+        <li 
+        class={`opcaoComando w-[25vh]`}
+        id="ordemParanormal">
+        💠 Ordem Paranormal
+        </li>
+    </nav>
+
+    <section class="w-full h-full overflow-y-auto">
+        <OrdoRealitasComandos />
+        <OrdemParanormalComandos />
+    </section>
+
+</div>
+<script>
+    const ordoRealitasCommands = document.getElementById('ordoRealitasCommands')!
+    const ordemParanormalCommands = document.getElementById('ordemParanormalCommands')!
+    
+    const ordoRealitasButton = document.getElementById('ordoRealitas')!
+    ordoRealitasButton.addEventListener('click', () => {
+        toggleButtons()
+    })
+
+    const ordemParanormalButton = document.getElementById('ordemParanormal')!
+    ordemParanormalButton.addEventListener('click', () => {
+        toggleButtons()
+    })
+
+    function toggleButtons() {
+        ordoRealitasButton.classList.toggle('bg-[#ff0000]')
+        ordemParanormalButton.classList.toggle('bg-[#ff0000]')
+
+        ordoRealitasCommands.hidden = !ordoRealitasCommands.hidden
+        ordemParanormalCommands.hidden = !ordemParanormalCommands.hidden
+    }
+</script>

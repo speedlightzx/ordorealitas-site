@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.textoResponsivo {
+    @apply text-xs md:text-base
+}
+
+.navItem {
+    @apply transition duration-200
+}
+
+.navItem:hover {
+    transform: scale(1.1);
+    @apply underline text-amber-300
+}
