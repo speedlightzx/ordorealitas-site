@@ -4,16 +4,18 @@ import AboutTheBot from "./components/AboutTheBot.astro";
 import './styles/home.css'
 ---
 
-<div class="flex h-full w-full flex-col gap-y-20 overflow-x-hidden">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
 
     { /* background desktop */ }
     <img src="elementos.png" alt="elementos" 
-    class="absolute inset-0 z-0 contrast-90 brightness-35 hidden lg:block"/>
+    class="absolute inset-0 z-0 contrast-90 brightness-35 object-cover w-full h-screen hidden lg:block"/>
 
     { /* background celular */ }
     <img src="medoMobile.jpg" alt="medo" 
-    class="absolute inset-0 z-0 top-[-6rem] contrast-90 brightness-35 block w-full lg:hidden"/>
+    class="absolute inset-0 z-0 contrast-90 brightness-35 block w-full h-screen object-cover lg:hidden"/>
 
-    <Hero />
-    <AboutTheBot />
+    <div class="flex flex-col justify-between">
+        <Hero />
+        <AboutTheBot />
+    </div>
 </div>
